@@ -140,7 +140,7 @@ zoom: 1.15
 
 <SlideHead num="05" icon="i-lucide-network" color="#006C6E" title="L'organigramme 2026" objectif="Clarifier les missions, les rôles et les cercles" />
 
-<div role="img" aria-label="Organigramme 123 Soleil — juin 2026" class="!-mt-1" style="height: 368px; background: url('/organigramme-2026.png') center / contain no-repeat;" />
+<div role="img" aria-label="Organigramme 123 Soleil — juin 2026" class="!-mt-1" style="height: 368px; background: url('organigramme-2026.png') center / contain no-repeat;" />
 
 ---
 class: text-left
