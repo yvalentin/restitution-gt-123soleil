@@ -1,5 +1,6 @@
 ---
 theme: default
+routerMode: hash
 title: Travaux du GT Gouvernance — École 123 Soleil
 info: Restitution au Conseil d'École — Juin 2026
 class: slide-dark

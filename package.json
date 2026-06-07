@@ -9,7 +9,7 @@
     "export:png": "slidev export slides.md --format png"
   },
   "dependencies": {
-    "@slidev/cli": "^52.1.0",
+    "@slidev/cli": "52.15.2",
     "@slidev/theme-default": "latest",
     "vue": "^3.5.0"
   },
