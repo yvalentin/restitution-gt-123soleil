@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.vite/
+
+# Artefacts d'export (régénérables via npm run export)
+slides-export.pdf
+slides-export/
