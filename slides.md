@@ -199,10 +199,6 @@ zoom: 1.38
 <p class="!text-[0.64rem] font-semibold uppercase tracking-[0.1em] !mb-2" style="color: var(--teal);">Ce que pose le cadre</p>
 
 <div class="grid grid-cols-3 gap-2.5 mb-3">
-  <div class="card" style="--accent: #8CAF2E;">
-    <div class="card-title"><div class="i-lucide-handshake" />Médiation possible</div>
-    <div class="card-text">En cas de difficulté relationnelle dans un cercle, la commission gouvernance-accompagnement peut être sollicitée.</div>
-  </div>
   <div class="card" style="--accent: #F7A600;">
     <div class="card-title"><div class="i-lucide-ear" />Points de recours identifiés</div>
     <div class="card-text">L'« Oreille des parents / des pédagogues » et les coordinateur·trices de cercles accueillent et orientent.</div>
@@ -210,6 +206,10 @@ zoom: 1.38
   <div class="card" style="--accent: #82246E;">
     <div class="card-title"><div class="i-lucide-book-open" />Document de référence</div>
     <div class="card-text">Le document « Cadre de sécurité », outil vivant déposé sur le Drive, revu a minima une fois par an.</div>
+  </div>
+  <div class="card" style="--accent: #8CAF2E;">
+    <div class="card-title"><div class="i-lucide-handshake" />Médiation possible</div>
+    <div class="card-text">En cas de difficulté relationnelle dans un cercle, la commission gouvernance-accompagnement peut être sollicitée.</div>
   </div>
 </div>
 
@@ -263,7 +263,7 @@ zoom: 1.1
       </div>
       <div class="card" style="--accent: #8CAF2E;">
         <div class="card-title"><div class="i-lucide-handshake" />Nature</div>
-        <div class="card-text">Espace de travail et d'alignement, <strong>sans pouvoir décisionnel</strong> : les décisions sont exposées au CE / CR / CC selon les besoins, qui décident.</div>
+        <div class="card-text">Espace de travail et d'alignement, <strong>sans pouvoir décisionnel</strong> : les décisions sont exposées au CE / CR / CC / CP selon les besoins, qui décident.</div>
       </div>
       <div class="card" style="--accent: #82246E;">
         <div class="card-title"><div class="i-lucide-send" />Restitution</div>
@@ -275,14 +275,14 @@ zoom: 1.1
 
 ---
 class: text-left
-zoom: 1.45
+zoom: 1.38
 ---
 
 <SlideHead num="09" icon="i-lucide-list-checks" color="#F7A600" title="Les modes de prise de décision" objectif="Alléger et diversifier les processus de décision" />
 
-<p class="!text-[0.7rem] !leading-[1.5] !mb-3"><strong>Une boîte à outils a été intégrée au document</strong> : à chaque situation correspond un ou plusieurs modes de décision adaptés — y compris en asynchrone quand le groupe ne peut pas se réunir.</p>
+<p class="!text-[0.7rem] !leading-[1.5] !mb-2"><strong>Une boîte à outils a été intégrée au document</strong> : à chaque situation correspond un ou plusieurs modes de décision adaptés — y compris en asynchrone quand le groupe ne peut pas se réunir.</p>
 
-<div class="grid grid-cols-3 gap-2.5 mb-3">
+<div class="grid grid-cols-3 gap-2 mb-2">
   <div class="card" style="--accent: #ED1566;">
     <div class="card-title"><div class="i-lucide-zap" />Urgence</div>
     <div class="card-text">Votes à choix multiples · décisions algorithmiques</div>
@@ -307,6 +307,11 @@ zoom: 1.45
     <div class="card-title"><div class="i-lucide-user" />Très petit nombre</div>
     <div class="card-text">Consultation collective · vote pondéré</div>
   </div>
+</div>
+
+<div class="rounded-xl flex items-start gap-3 !mb-2 px-4 py-2" style="background: var(--teal); color: #fff;">
+  <div class="i-lucide-handshake flex-shrink-0 !mt-0.5" style="color: var(--jaune); font-size: 1.1rem;" />
+  <div class="!text-[0.66rem] !leading-[1.45]"><strong>Avant chaque prise de décision, la modalité est convenue ensemble</strong> pour clarifier le processus. Les modes proposés restent des <strong style="color: var(--jaune);">propositions, pas des obligations</strong>.</div>
 </div>
 
 <p class="!text-[0.64rem] italic muted !leading-[1.5]">Une bonne décision : prise avec les personnes concernées · avec un processus adapté au contexte · tracée et accessible · précisant qui fait quoi et dans quel délai.</p>
@@ -337,7 +342,7 @@ zoom: 1.28
       </div>
       <div class="step">
         <div class="step-n">2</div>
-        <div class="!text-[0.68rem] !leading-[1.45]"><strong>Affinage de la répartition</strong><br /><span class="muted">Une 1ère proposition est construite (3 préférences, élection sans candidat, vote pondéré) puis finalisée en intelligence collective.</span></div>
+        <div class="!text-[0.68rem] !leading-[1.45]"><strong>Affinage de la répartition</strong><br /><span class="muted">Une grande partie se fait <strong>en asynchrone</strong> (3 préférences, élection sans candidat, vote pondéré) ; il reste ensuite à caler une <strong>petite réunion pour finaliser</strong> grâce à l'intelligence collective.</span></div>
       </div>
     </div>
   </div>
@@ -377,11 +382,11 @@ zoom: 1.3
     </div>
     <div class="glass-card">
       <div class="card-title"><div class="i-lucide-refresh-cw" />Ancrer la réévaluation annuelle</div>
-      <div class="card-text">Le document de fonctionnement sera revu chaque été par un GT.</div>
+      <div class="card-text">Le document de fonctionnement sera revu régulièrement par la commission gouvernance, avec éventuellement le soutien d'un GT.</div>
     </div>
     <div class="glass-card">
       <div class="card-title"><div class="i-lucide-flag" />Viser la rentrée 2026-2027</div>
-      <div class="card-text">Rendre la gouvernance opérationnelle pour la rentrée.</div>
+      <div class="card-text">Rendre l'expérimentation de cette gouvernance opérationnelle pour la rentrée.</div>
     </div>
   </div>
 
