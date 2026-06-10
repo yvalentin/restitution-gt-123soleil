@@ -366,6 +366,11 @@ zoom: 1.3
 
 <SunRings class="sun-bl" />
 
+<div class="questions-badge">
+  <div class="i-lucide-message-circle-question" />
+  <span>Des questions ?</span>
+</div>
+
 <div class="relative z-1">
   <p class="uppercase tracking-[0.22em] font-semibold !text-[0.62rem] !mb-2" style="color: var(--jaune);">Clôture · 11</p>
   <h2 class="!text-[1.8rem] font-semibold !mb-2">Et maintenant ?</h2>
